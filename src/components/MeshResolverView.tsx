@@ -22,6 +22,7 @@ import {
   MeshLedgerEntry
 } from '../crypto/aegisCore';
 import { computeSHA256 } from '../crypto/hashProof';
+import { DnssecKeyMiningUnlistingSection } from './DnssecKeyMiningUnlistingSection';
 
 export const MeshResolverView: React.FC = () => {
   const [entries, setEntries] = useState<MeshLedgerEntry[]>(
@@ -406,6 +407,9 @@ export const MeshResolverView: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Section: DNSSEC Key Mining & Redirect Unlisting Engine */}
+      <DnssecKeyMiningUnlistingSection />
 
       {/* Modal: Store New Unlisted Payload */}
       {showAddModal && (
