@@ -1,0 +1,8 @@
+{
+  "name": "AEGIS⁶⁶⁶",
+  "description": "Advanced encrypted file recovery suite using decentralized mining pools, hash checksum solvers, and cryptographic key reconstruction algorithms.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
